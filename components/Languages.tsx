@@ -23,7 +23,7 @@ export default function Languages({ languages }: LanguagesProps) {
       {languages.map((lang) => (
         <span
           key={lang}
-          className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium ${getColorForLanguage(lang)}`}
+          className={`inline-flex items-center rounded-full px-4 py-0.5 text-xs font-medium ${getColorForLanguage(lang)}`}
         >
           {lang}
         </span>

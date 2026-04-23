@@ -6,7 +6,7 @@ import Languages from "@/components/Languages";
 export default function Home() {
   return (
     // Main wrapper - centers content horizontally, adds top padding
-    <main className="min-h-screen flex justify-center bg-zinc pt-12">
+    <main className="min-h-screen flex justify-center bg-zinc pt-20">
       {/* Inner section - max width container with vertical gap between sections */}
       <section className="flex flex-col items-center max-w-2xl w-full gap-5 px-4">
 
@@ -42,7 +42,7 @@ export default function Home() {
             alt="OsloMet"
             title="Bachelor's · Computer Science"
             subtitle="OsloMet"
-            date="2023 – 2025.des"
+            date="2023 – 2025"
           />
         </div>
 
