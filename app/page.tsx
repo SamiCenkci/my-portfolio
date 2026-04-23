@@ -30,7 +30,7 @@ export default function Home() {
 
         {/* ===== Intro / Bio paragraph ===== */}
         <p className="text-sm text-zinc-600 dark:text-zinc-400 text-left">
-          CS student at the University of OsloMet passionate about building clean, modern applications. Hands-on experience across the full stack — from Spring Boot and SQL to React solutions and cloud deployment. I enjoy turning ideas into products that actually work.
+          CS student at the University of OsloMet passionate about building clean, modern applications. Hands-on experience across the full stack from Spring Boot and SQL to React solutions and cloud deployment. I enjoy turning ideas into products that actually work.
         </p>
 
         {/* ===== Education Section ===== */}
@@ -57,7 +57,7 @@ export default function Home() {
               alt="Sintef"
               title="Software Developer"
               subtitle="Sintef"
-              date="2024.des – 2025.jul"
+              date="2024.des – 2025"
             />
             {/* Reitan - Support role */}
             <Card
@@ -65,7 +65,7 @@ export default function Home() {
               alt="Reitan Convenience Norway AS"
               title="1. linje Support, Servicedesk"
               subtitle="Reitan Convenience Norway AS"
-              date="2023 – 2024"
+              date="2026 – NOW"
             />
             {/* Easypick - current Tech Support role */}
             <Card
@@ -73,7 +73,7 @@ export default function Home() {
               alt="Easypick"
               title="Tech Support"
               subtitle="Easypick AS"
-              date="2025 – n"
+              date="2025 – 2026"
             />
           </div>
         </div>
