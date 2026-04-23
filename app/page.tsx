@@ -57,7 +57,7 @@ export default function Home() {
               alt="Sintef"
               title="Software Developer"
               subtitle="Sintef"
-              date="2024.des – 2025"
+              date="2024 – 2025"
             />
             {/* Reitan - Support role */}
             <Card
@@ -65,7 +65,7 @@ export default function Home() {
               alt="Reitan Convenience Norway AS"
               title="1. linje Support, Servicedesk"
               subtitle="Reitan Convenience Norway AS"
-              date="2026 – NOW"
+              date="2026 – Now"
             />
             {/* Easypick - current Tech Support role */}
             <Card
