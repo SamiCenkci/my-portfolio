@@ -16,8 +16,8 @@ export default function Home() {
           <Image
             src="/profile1.jpeg"
             alt="My photo"
-            width={120}
-            height={120}
+            width={160}
+            height={160}
             className="aspect-square object-cover rounded-full shrink-0"
             priority
           />
