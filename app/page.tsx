@@ -145,7 +145,7 @@ export default function Home() {
 
             {/* ===== Weekdays ===== */}
             <div>
-              <div className="flex items-center gap-2 mb-3">
+              <div className="flex gap-2 mb-3">
                 <span className="text-xs uppercase tracking-wider text-zinc-500 font-medium">Weekdays</span>
                 <span className="text-xs text-zinc-600">Mon – Fri</span>
               </div>
