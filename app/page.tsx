@@ -109,11 +109,21 @@ export default function Home() {
           </div>
         </div>
 
-        {/* ===== Selected Projects Section ===== */}
+      {/* ===== Selected Projects Section ===== */}
         <div className="w-full pt-4">
           <h2 className="text-lg font-bold text-white mb-2">Selected Projects</h2>
           {/* Project cards - stack on mobile, side-by-side on md+ screens */}
           <div className="flex flex-col md:flex-row gap-4">
+            {/* Wisp marketplace project */}
+            <a href="https://wispapp.net" target="_blank" rel="noopener noreferrer">
+              <Cardbox
+                logo="/wisp.jpg"
+                alt="Wisp marketplace"
+                title="Wisp"
+                subtitle="Full-stack Finn.no-style marketplace. JWT auth, S3 image uploads, fuzzy search, real-time chat over WebSockets, and favorites. Self-hosted with HTTPS via Cloudflare Tunnel."
+                languages={["Next.js", "TypeScript", "Go", "PostgreSQL", "WebSockets", "AWS S3"]}
+              />
+            </a>
             {/* Bachelor thesis project */}
             <a href="https://github.com/SamiCenkci/ReservoirWind.git" target="_blank" rel="noopener noreferrer">
               <Cardbox
@@ -135,6 +145,7 @@ export default function Home() {
               />
             </a>
           </div>
+        </div>
         </div>
 
         {/* ===== Daily Routine ===== */}
