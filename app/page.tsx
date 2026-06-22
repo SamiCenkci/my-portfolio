@@ -117,7 +117,7 @@ export default function Home() {
             {/* Wisp marketplace project */}
             <a href="https://wispapp.net" target="_blank" rel="noopener noreferrer">
               <Cardbox
-                logo="/wisp.jpg"
+                logo="/wisp.png"
                 alt="Wisp marketplace"
                 title="Wisp"
                 subtitle="Full-stack Finn.no-style marketplace. JWT auth, S3 image uploads, fuzzy search, real-time chat over WebSockets, and favorites. Self-hosted with HTTPS via Cloudflare Tunnel."
