@@ -146,7 +146,6 @@ export default function Home() {
             </a>
           </div>
         </div>
-        </div>
 
         {/* ===== Daily Routine ===== */}
         <div className="w-full pt-4">
