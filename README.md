@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Chat Application
+
+A modern real-time chat application built with Spring Boot, JWT authentication, and a JavaFX desktop client.
+
+## Overview
+
+A full-stack chat application featuring secure user authentication, real-time messaging, and persistent message storage. The project demonstrates layered architecture, secure API design, and clean separation between backend and client.
+
+## Features
+
+- 🔐 JWT-based authentication with secure password hashing
+- 💬 Real-time messaging between users
+- 🖥️ JavaFX desktop client with a responsive interface
+- 💾 Persistent message storage in a SQL database
+- 🏗️ Layered backend architecture (Controller / Service / Repository)
+- 📡 REST API endpoints for all core operations
+
+## Tech Stack
+
+**Backend**
+- Java 17
+- Spring Boot
+- Spring Security
+- JWT (JSON Web Tokens)
+- Maven
+
+**Frontend**
+- JavaFX
+- FXML
+
+**Database**
+- PostgreSQL / MySQL / H2 *(choose what you actually used)*
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Java 17 or higher
+- Maven 3.8+
+- A running SQL database instance
+
+### Installation
+
+1. **Clone the repository**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+   git clone https://github.com/your-username/chat-app.git
+   cd chat-app
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Configure the database**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   Update `src/main/resources/application.properties` with your database credentials:
+```properties
+   spring.datasource.url=jdbc:postgresql://localhost:5432/chatdb
+   spring.datasource.username=your_username
+   spring.datasource.password=your_password
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Build the project**
+```bash
+   mvn clean install
+```
 
-## Learn More
+4. **Run the backend**
+```bash
+   mvn spring-boot:run
+```
 
-To learn more about Next.js, take a look at the following resources:
+5. **Launch the JavaFX client**
+```bash
+   mvn javafx:run
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Register a new account through the client
+2. Log in with your credentials — a JWT token is issued
+3. Start sending messages in real time
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Project Structure
