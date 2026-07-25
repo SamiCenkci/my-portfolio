@@ -120,8 +120,8 @@ export default function Home() {
                 logo="/wisp.png"
                 alt="Wisp marketplace"
                 title="Wisp"
-                subtitle="Full-stack Finn.no-style marketplace. JWT auth, S3 image uploads, fuzzy search, real-time chat over WebSockets, and favorites. Self-hosted with HTTPS via Cloudflare Tunnel."
-                languages={["Next.js", "TypeScript", "Go", "PostgreSQL", "WebSockets", "AWS S3"]}
+                subtitle="Full-stack Finn.no-style marketplace. JWT auth with email verification, typo-tolerant search, buyer–seller chat, mutual reviews, saved-search email alerts, and a Norwegian/English interface. Deployed on Vercel, Render and Neon."
+                languages={["Next.js", "TypeScript", "Go", "PostgreSQL", "AWS S3", "Resend"]}
               />
             </a>
             {/* Bachelor thesis project */}
